@@ -8,6 +8,8 @@ Temperature Cool Walking (TCW) is an enhanced sampling method for biomolecular s
  
 Optionally, two OpenMM .xml restart files can be loaded in, one for the low temperature walker and one for the high temperature. These are –low_restart and –high_restart for the argument parser. All other inputs have default values, more information can be found using the –help option.
 
+**NOTE: This assumes that you have OpenMM installed, and can run a simple MD simulation using OpenMM using a python script**
+
 As set up, an example TCW simulation could be run from the command line as:
 
 	python TCW_run.py –pdb ‘alanine_hydr.pdb’ –temperature_file ‘temperatures.txt’ –forcefield ‘amber99sb.xml’ –watermodel ‘tip3p.xml’
