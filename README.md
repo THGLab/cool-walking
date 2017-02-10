@@ -12,6 +12,8 @@ As set up, an example TCW simulation could be run from the command line as:
 
 	python TCW_run.py –pdb ‘alanine_hydr.pdb’ –temperature_file ‘temperatures.txt’ –forcefield ‘amber99sb.xml’ –watermodel ‘tip3p.xml’
 
+Example input files can be found in the examples directory.
+
 The cool walking method is described in two papers:
 
 1.	S. Brown & T. Head-Gordon (2003). Cool-walking: a new markov chain monte carlo sampling method. J. Comp. Chem. PAK Symposium 24, 68-76
